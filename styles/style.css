@@ -205,7 +205,7 @@
   height: 38px;
   border: 2px solid var(--accent-color);
   padding: 9px 17px;
-  font-family: var(--accent-font), fantasy;;
+  font-family: var(--accent-font);
   font-size: 14px;
   text-align: center;
   background: transparent;
@@ -384,7 +384,7 @@
   background: var(--background-color);
 }
 
-.dialog[open]  {
+.dialog {
   border: 2px solid var(--accent-color);
   padding: 30px;
   color: var(--accent-color);
@@ -404,6 +404,8 @@
 .dialog .icon-m {
   width: 40px;
   height: 40px;
+  margin-top: 10px;
+  filter: invert(1);
 }
 
 .dialog .card__like-button {
@@ -482,9 +484,4 @@
 
 .footer .card__like-button .icon-m {
   filter: invert(1) brightness(2);
-}
-
-.dialog .icon-m {
-  margin-top: 10px;
-  filter: invert(1);
 }
