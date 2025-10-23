@@ -1,7 +1,7 @@
 :root {
-   --main-font: Inter-Variable;
-   --accent-font: 'Press Start 2P';
-   --size-content: clamp(371px, 700px, 1500px);
+  --main-font: Inter-Variable;
+  --accent-font: 'Press Start 2P';
+  --size-content: clamp(371px, 700px, 1500px);
 }
 
 :root.theme-light {
