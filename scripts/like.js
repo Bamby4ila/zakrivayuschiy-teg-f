@@ -40,11 +40,11 @@ function setButtonText(heart, button) {
   }
 }
 
-
   const showDialogBtn = document.querySelector('#show-dialog-btn');
-  const myDialog = document.querySelector('#my-dialog');
-  const closeDialogBtn = document.querySelector('#close-dialog-btn');
+  const saveDialog = document.querySelector('#save-dialog');
 
-  showDialogBtn.addEventListener('click', () => {
-    myDialog.showModal();
+  if (showDialogBtn && saveDialog) {
+    showDialogBtn.addEventListener('click', () => {
+      saveDialog.showModal();
   });
+}
