@@ -606,6 +606,10 @@
   filter: blur(2px);
 }
 
+.card__poster-image.filter-multiple {
+  filter: brightness(150%) contrast(200%) saturate(200%) hue-rotate(45deg);
+}
+
 @media (max-width: 375px) {
   .header {
     margin: 100px auto;
