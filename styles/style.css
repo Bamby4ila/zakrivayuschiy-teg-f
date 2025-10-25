@@ -602,12 +602,8 @@
   filter: invert(100%);
 }
 
-.card__poster-image.filter-blur {
-  filter: blur(2px);
-}
-
 .card__poster-image.filter-multiple {
-  filter: brightness(150%) contrast(200%) saturate(200%) hue-rotate(45deg);
+  filter: brightness(150%) contrast(200%) saturate(200%) hue-rotate(45deg) blur(2px);
 }
 
 @media (max-width: 375px) {
