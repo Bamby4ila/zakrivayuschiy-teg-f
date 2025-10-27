@@ -30,7 +30,6 @@
   margin: 0;
   color: var(--accent-color);
   font-family: var(--accent-font);
-  font-size: var(--logo-font-size);
   font-size: clamp(2.5rem, 9vw, var(--logo-font-size));
   text-align: center;
   text-transform: uppercase;
@@ -287,7 +286,6 @@
   z-index: 2;
   color: var(--accent-color);
   font-weight: 400;
-  font-size: 14px;
   font-size: clamp(12px, 3vw, 14px);
   line-height: 90%;
   mix-blend-mode: normal;
