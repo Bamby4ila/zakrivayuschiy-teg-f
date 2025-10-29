@@ -252,7 +252,6 @@
   z-index: 2;
   color: var(--accent-color);
   fill: currentColor;
-  /* transition: color 0.3s ease; */
 }
 
 .button--save:hover svg {
@@ -369,15 +368,12 @@
   .header__title {
     padding: 0;
     font-size: clamp(1.5rem, 13vw, 4rem);
-    text-transform: uppercase;
   }
   
   .header__text {
     margin-top: 10px;
     padding-left: 7px;
-    font-weight: 400;
     font-size: 14px;
-    text-transform: uppercase;
   }
 
   .content__post {
@@ -396,17 +392,7 @@
   .card__content-text {
     margin-bottom: 24px;
     padding: 0 5px;
-    font-weight: 410;
     font-size: 18px;
-    line-height: 117%;
-  }
-
-  .card__poster-label {
-    top: 25px;
-    right: 24px;
-    font-weight: 400;
-    font-size: 14px;
-    text-transform: uppercase;
   }
 
   .card__buttons {
@@ -417,7 +403,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
     width: 100%;
     max-width: 310px;
     min-height: 80px;
@@ -437,11 +422,6 @@
 
   .dialog {
     max-width: 350px;
-  }
-  
-  .dialog__container {
-    flex-direction: column;
-    min-width: 346px;
   }
 
   .dialog__content-wrapper {
